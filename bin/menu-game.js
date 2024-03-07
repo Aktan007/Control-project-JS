@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-console.log('Choose the game!');
+import meeting from "../src/cli.js";
+
+meeting();
+

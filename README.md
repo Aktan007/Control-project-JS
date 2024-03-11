@@ -1,2 +1,2 @@
 brain-scm
-![Alt text](image.png)
+![Alt text](img/image.png)

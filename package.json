@@ -10,7 +10,8 @@
   "bin": {
     "brain-games": "bin/menu-game.js",
     "brain-scm": "bin/brain-scm.js",
-    "brain-progression": "bin/brain-progression.js"
+    "brain-progression": "bin/brain-progression.js",
+    "menu-game" : "bin/menu-game.js"
   },
   "keywords": [
     "console"

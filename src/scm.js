@@ -4,9 +4,8 @@ import runGame from "./index.js";
 const gameDescription01 = 'Find the smallest common multiple of given numbers.';
 
 const generateQuestionAndAnswer = () => {
-  const nums = Array(3).fill(0).map(() => getRandomNum());
-
-  let scm = Math.min(...nums);
+  const nums = Array(3).fill(0).map(() => getRandomNum(1, 10));
+  let scm = Math.max(...nums);
   while (!(scm % nums[0] === 0 && scm % nums[1] === 0 && scm % nums[2] === 0)) {
     scm += 1;
   }
